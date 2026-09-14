@@ -3,7 +3,7 @@
   window.__GLOBAL_NOTICE_INITIALIZED__ = true;
 
   // 1. 공통 설정 파일 경로 (Nginx URL & 캐시 방지 쿼리스트링)
-  const CONFIG_URL = 'https://12dd89f0.ksgi-global-popup-service.pages.dev/notice.json?_t=' + Date.now();
+  const CONFIG_URL = 'https://ksgi-global-popup-service.pages.dev/notice.json?_t=' + Date.now();
 
   fetch(CONFIG_URL)
     .then((res) => {
