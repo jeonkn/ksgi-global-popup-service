@@ -1,0 +1,9 @@
+/notice.json
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+
+/popup.js
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
+  Cache-Control: public, max-age=86400
